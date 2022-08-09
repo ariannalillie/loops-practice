@@ -7,6 +7,15 @@ When you finish this lesson, you should be able to:
 * Write a function using function declaration
 * Use the `return` keyword to return a value from a function
 
+## JavaScript Operators
+
+* plus: +
+* minus: -
+* divide: /
+* multiply: *
+* modulo: % (the mmodule operator gives you the remainder of two numbers divded, this can be helpful for finding if a number is even or odd)
+**Example: 15 % 2 = 1**
+
 ## How to write a function
 
 A function consists of the following three elements:
