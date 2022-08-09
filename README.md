@@ -49,6 +49,8 @@ sayNumber(1);  // Prints 1 and returns undefined
 
 ## How to complete these exercises
 
-* Read the prompt above the function skeleton
+* Navigate to the `prolems.js` file
+* Read the prompt in the function skeleton
 * Write your solution where your code goes
 * Run `npm run test` to check your answer
+* PRO TIP: if you get stuck as Ari how you can use console.logs to debug your code
