@@ -26,5 +26,5 @@ const myFunction = (parameter1, parameter2) => {
 * Read the prompt above the function skeleton
 * Write your solution where your code goes
 * Run `node` followed by the file name to see your answer (Pro Tip: You can get your file name by typing the first few letters and clicking the tab key)
-* Run `npm test` to check your answer
+* Run `npm run test` to check your answer
 
