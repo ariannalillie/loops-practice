@@ -26,4 +26,3 @@ const myFunction = (parameter1, parameter2) => {
 * Read the prompt above the function skeleton
 * Write your solution where your code goes
 * Run `npm run test` to check your answer
-
