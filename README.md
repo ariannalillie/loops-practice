@@ -53,4 +53,4 @@ sayNumber(1);  // Prints 1 and returns undefined
 * Read the prompt in the function skeleton
 * Write your solution where your code goes
 * Run `npm run test` to check your answer
-* PRO TIP: if you get stuck as Ari how you can use console.logs to debug your code
+* PRO TIP: if you get stuck ask Ari how you can use console.logs to debug your code
