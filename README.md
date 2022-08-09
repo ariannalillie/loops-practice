@@ -26,8 +26,8 @@ const myFunction = (parameter1, parameter2) => {
 You can print things to the console using console.log("Message to print").
 
 ```JavaScript
-console.log(```Hello my name is Zach and I am learning to code! 
-I am so grateful for this lesson, I would change my last name for Ari```)
+console.log(`Hello my name is Zach and I am learning to code! 
+I am so grateful for this lesson, I would change my last name for Ari`)
 
 // Prints: Hello my name is Zach and I am learning to code! I am so grateful for this lesson, I would change my last name for Ari
 ```
