@@ -56,6 +56,43 @@ function sayNumber(number) {
 sayNumber(1);  // Prints 1 and returns undefined
 ```
 
+## While Loops
+One of the simplest loops in JavaScript is the while loop. As with all loops, the while loop will execute a block of code as long as a specified condition is true. The while loop starts with the keyword while then states a condition in parentheses. The code in the following braces will be run as long as the above condition is met.
+
+```JavaScript
+while (condition) {
+  // code block to be executed
+}
+```
+
+In the following example, the code in the loop will run, over and over again, as long as a variable (index) is less than 10:
+
+```JavaScript
+let index = 0;
+
+// this is the condition that will be checked every time this loop is run
+while (index < 10) {
+  console.log("The number is " + index);
+  // this is common shorthand for index = index + 1
+  index++;
+}
+```
+
+The most important thing to remember when writing any loop is to always be working towards your condition. In the example above if we did not increment the index variable by 1 each time the loop ran then we would be stuck with what we call an infinite loop:
+
+```JavaScript
+let index = 0;
+
+// this is an infinite loop because our condition will never be met
+while (index < 10) {
+  console.log("The number is " + index);
+  // if we do not increase the index then our condition is never met
+  // Meaning this will run forever!
+}
+```
+
+The above code will run until whatever interpreter you are using crashes.
+
 ## How to complete these exercises
 
 * Navigate to the `prolems.js` file
