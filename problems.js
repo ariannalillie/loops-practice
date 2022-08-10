@@ -2,39 +2,39 @@ const addThree = (num) => {
   // Woohoo 🎉 Congrats on the beginning of your coding challenge Zach!
   // For this first function it should return the number passed in plus three
   // Zach's code here
-  return (num+3)
+  return num + 3;
 };
-console.log(addThree(3))
+console.log(addThree(3));
 
 const divideByThree = (num) => {
   /* Returns the passed in number argument divided by three. */
   // Zach's code here
-  return (num/3)
+  return num / 3;
 };
-console.log(divideByThree(3))
+console.log(divideByThree(3));
 
 const averageOfTwo = (num1, num2) => {
   /* Returns the average of two numbers, num1 and num2. */
   // Zach's code here
-  const total = num1 + num2
-  return (total/2)
+  const total = num1 + num2;
+  return total / 2;
 };
-console.log(averageOfTwo(5,6))
+console.log(averageOfTwo(5, 6));
 
 const averageOfAny = (nums) => {
   /* Takes in an array of nums [2,3,4,5]. The function should return the average of all of
     the numbers. */
   // Zach's code here
 
-  let total = 0
+  let total = 0;
 
-  for(let i=0; i < nums.length; i++) {
-    total += nums(i)
+  for (let i = 0; i < nums.length; i++) {
+    total += nums[i];
   }
 
-  return (total/4)
+  return total / nums.length;
 };
-console.log(averageOfAny(1,2,3,4,5))
+console.log(averageOfAny([2, 3, 4, 5]));
 
 const doubler = (nums) => {
   /* Takes an array of numbers and returns a new array where every element of

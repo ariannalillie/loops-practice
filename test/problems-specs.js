@@ -28,8 +28,8 @@ describe("Problems", function () {
     })
 
     describe("averageOfAny", function () {
-        it('should take average of four inputs', function () {
-            expect(averageOfAny([1, 2, 3, 4])).to.equal(2.5);
+        it('should take average of any number of inputs', function () {
+            expect(averageOfAny([2,3,4,5])).to.equal(3.5);
         })
     })
 
