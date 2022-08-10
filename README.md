@@ -57,6 +57,7 @@ sayNumber(1);  // Prints 1 and returns undefined
 ```
 
 ## While Loops
+
 One of the simplest loops in JavaScript is the while loop. As with all loops, the while loop will execute a block of code as long as a specified condition is true. The while loop starts with the keyword while then states a condition in parentheses. The code in the following braces will be run as long as the above condition is met.
 
 ```JavaScript
@@ -92,6 +93,40 @@ while (index < 10) {
 ```
 
 The above code will run until whatever interpreter you are using crashes.
+
+## For Loops
+
+A for loop can be broken down into three sections:
+
+1. The initial expression which will be run once at the beginning of the loop.
+2. The condition which is checked every time the loop is run. If this condition is true the loop will run again. If this condition is false the loop will end.
+3. The loopEnd expression which will be run at the end of the loop before checking the condition again.
+
+`for (<initial expression>;<condition>;<loopEnd expression>)`
+
+The for loop is usually used with an integer counter:
+
+```JavaScript
+for (let index = 0; index < 10; index += 1) {
+  // the code inside this block will run 10 times
+}
+```
+
+While the loopEnd expression is normally used to increase a variable by one per loop iteration, it can contain any statement, such as one that decreases the counter or increases it by 2.
+
+You can use the for loop to iterate through all kinds of things. Check out the example below for how to iterate through a string:
+
+```JavaScript
+let testString = "testing";
+
+// We can use the testString's length as our condition!
+// Since we know the testString's index starts at 0
+// and our index starts at 0 we can access each letter:
+for (let index = 0; index < testString.length; index += 1) {
+  let letter = testString[index];
+  console.log(letter);
+}
+```
 
 ## How to complete these exercises
 
