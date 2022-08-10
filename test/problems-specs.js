@@ -1,6 +1,6 @@
 const assert = require("assert");
 const chai = require("chai");
-const { divideByThree, averageOfTwo, averageOfFour, doubler, combineArrays, wordWithinArray, echo, fizzBuzz, hello, goodbye, isFive, isOdd, isSubString, aCounter, addThree } = require("../problems");
+const { divideByThree, averageOfTwo, averageOfAny, doubler, combineArrays, wordWithinArray, echo, fizzBuzz, hello, goodbye, isFive, isOdd, isSubString, aCounter, addThree } = require("../problems");
 const expect = chai.expect;
 
 describe("Problems", function () {
@@ -27,9 +27,9 @@ describe("Problems", function () {
         })
     })
 
-    describe("averageOfFour", function () {
+    describe("averageOfAny", function () {
         it('should take average of four inputs', function () {
-            expect(averageOfFour(1, 2, 3, 4)).to.equal(2.5);
+            expect(averageOfAny([1, 2, 3, 4])).to.equal(2.5);
         })
     })
 
