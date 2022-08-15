@@ -1,6 +1,6 @@
 # Javascript Loops Practice
 
-Try using both for loops and while loops for this coding exercise. 
+Try using both for loops and while loops for this coding exercise.
 
 ## While Loops
 
