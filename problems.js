@@ -16,6 +16,7 @@ console.log(printFives(30));
 const logBetweenStepper = (min, max, step) => {
   // Write a function logBetweenStepper(min, max, step) that takes in 3 numbers as parameters.
   // The function should return a new array with numbers between min and max at step intervals.
+  // Example logBetweenStepper(1, 10, 2) should return => [3,5,7,9]
   // Your code goes here
 };
 
