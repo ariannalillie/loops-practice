@@ -1,8 +1,15 @@
 const logBetween = (lowNum, highNum) => {
-  // Define a function logBetween(lowNum, highNum) that will print every number from lowNum to highNum,
+  // Define a function logBetween(lowNum, highNum) that will return a new array with every number from lowNum to highNum,
   // inclusive. Inclusive means that the range includes lowNum and highNum.
   // Your code goes here
+  let newArray = []
+  for (let i = lowNum; i <= highNum; i++) {
+    newArray.push(i)
+  }
+  return newArray
 };
+
+console.log(logBetween(2,6))
 
 const printFives = (max) => {
   // Write a function printFives(max) that prints out the multiples of 5 that are less than max.
